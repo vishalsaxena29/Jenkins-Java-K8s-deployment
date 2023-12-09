@@ -43,7 +43,6 @@ pipeline {
                 dockerImage.push()
             }
         }
-            echo "your_docker_password" | docker login -u docker-cred --password-stdin https://index.docker.io/v1/
       }
     }
     stage('Update Deployment File') {
