@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
+            GIT_REPO_NAME = "Jenkins-Java-K8s-deployment"
             GIT_USER_NAME = "vishalsaxena29"
         }
         steps {
